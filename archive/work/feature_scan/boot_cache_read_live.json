@@ -1,0 +1,399 @@
+{
+  "timestamp": "2026-10-10T15:30:49.888631+08:00",
+  "operations": [
+    {
+      "opcode": "0x94ff",
+      "subcommand": "0xf032",
+      "address": "0xc2b2b608",
+      "length": 52,
+      "steps": [
+        {
+          "wpd_command": 13,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 15,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 17,
+          "hresult": "0x0",
+          "ptp_response": "0x2001",
+          "ptp_response_params": [
+            "0x2001",
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x0"
+          ]
+        }
+      ],
+      "reported_size": 52,
+      "data_hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "opcode": "0x94ff",
+      "subcommand": "0xf032",
+      "address": "0xc188bc38",
+      "length": 12,
+      "steps": [
+        {
+          "wpd_command": 13,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 15,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 17,
+          "hresult": "0x0",
+          "ptp_response": "0x2001",
+          "ptp_response_params": [
+            "0x2001",
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x0"
+          ]
+        }
+      ],
+      "reported_size": 12,
+      "data_hex": "b84b9f1105c2471001000000"
+    },
+    {
+      "opcode": "0x94fe",
+      "subcommand": "0xf033",
+      "address": "0xc2b2b608",
+      "length": 28,
+      "data_hex": "32f000000100000000000000000000000000000089544b1013534b10",
+      "steps": [
+        {
+          "wpd_command": 14,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 16,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 17,
+          "hresult": "0x0",
+          "ptp_response": "0x2001",
+          "ptp_response_params": [
+            "0x2001",
+            "0x1c",
+            "0x0",
+            "0x0",
+            "0x0"
+          ]
+        }
+      ],
+      "bytes_sent": 28
+    },
+    {
+      "opcode": "0x94ff",
+      "subcommand": "0xf032",
+      "address": "0xc2b2b608",
+      "length": 28,
+      "steps": [
+        {
+          "wpd_command": 13,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 15,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 17,
+          "hresult": "0x0",
+          "ptp_response": "0x2001",
+          "ptp_response_params": [
+            "0x2001",
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x0"
+          ]
+        }
+      ],
+      "reported_size": 28,
+      "data_hex": "32f000000100000000000000000000000000000089544b1013534b10"
+    },
+    {
+      "opcode": "0x94fe",
+      "subcommand": "0xf033",
+      "address": "0xc188bc38",
+      "length": 4,
+      "data_hex": "08b6b2c2",
+      "steps": [
+        {
+          "wpd_command": 14,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 16,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 17,
+          "hresult": "0x0",
+          "ptp_response": "0x2001",
+          "ptp_response_params": [
+            "0x2001",
+            "0x4",
+            "0x0",
+            "0x0",
+            "0x0"
+          ]
+        }
+      ],
+      "bytes_sent": 4
+    },
+    {
+      "opcode": "0x94ff",
+      "subcommand": "0xf032",
+      "address": "0x10000088",
+      "length": 8,
+      "steps": [
+        {
+          "wpd_command": 13,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 15,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 17,
+          "hresult": "0x0",
+          "ptp_response": "0x2001",
+          "ptp_response_params": [
+            "0x2001",
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x0"
+          ]
+        }
+      ],
+      "reported_size": 8,
+      "data_hex": "ba3d5c397bf331a9"
+    },
+    {
+      "opcode": "0x94fe",
+      "subcommand": "0xf033",
+      "address": "0xc2b2b608",
+      "length": 28,
+      "data_hex": "00000000000000000000000000000000000000000000000000000000",
+      "steps": [
+        {
+          "wpd_command": 14,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 16,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 17,
+          "hresult": "0x0",
+          "ptp_response": "0x2001",
+          "ptp_response_params": [
+            "0x2001",
+            "0x1c",
+            "0x0",
+            "0x0",
+            "0x0"
+          ]
+        }
+      ],
+      "bytes_sent": 28
+    },
+    {
+      "opcode": "0x94fe",
+      "subcommand": "0xf033",
+      "address": "0xc188bc38",
+      "length": 4,
+      "data_hex": "b84b9f11",
+      "steps": [
+        {
+          "wpd_command": 14,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 16,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 17,
+          "hresult": "0x0",
+          "ptp_response": "0x2001",
+          "ptp_response_params": [
+            "0x2001",
+            "0x4",
+            "0x0",
+            "0x0",
+            "0x0"
+          ]
+        }
+      ],
+      "bytes_sent": 4
+    },
+    {
+      "opcode": "0x94ff",
+      "subcommand": "0xf032",
+      "address": "0xc2b2b608",
+      "length": 52,
+      "steps": [
+        {
+          "wpd_command": 13,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 15,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 17,
+          "hresult": "0x0",
+          "ptp_response": "0x2001",
+          "ptp_response_params": [
+            "0x2001",
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x0"
+          ]
+        }
+      ],
+      "reported_size": 52,
+      "data_hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "opcode": "0x94ff",
+      "subcommand": "0xf032",
+      "address": "0xc188bc38",
+      "length": 12,
+      "steps": [
+        {
+          "wpd_command": 13,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 15,
+          "hresult": "0x0"
+        },
+        {
+          "wpd_command": 17,
+          "hresult": "0x0",
+          "ptp_response": "0x2001",
+          "ptp_response_params": [
+            "0x2001",
+            "0x0",
+            "0x0",
+            "0x0",
+            "0x0"
+          ]
+        }
+      ],
+      "reported_size": 12,
+      "data_hex": "b84b9f1105c2471001000000"
+    }
+  ],
+  "firmware_written": false,
+  "camera_files_written": false,
+  "persistent_settings_written": false,
+  "volatile_ram_mutation_planned": true,
+  "original_f032_row": "0x119f4bb8",
+  "read_bytes_verified_against_official_digest": false,
+  "identity_before": {
+    "firmware_version": "V1.70",
+    "manufacturer": "Nikon Corporation",
+    "model": "Z 6_2"
+  },
+  "phase": "closed",
+  "enter": {
+    "opcode": "0x94fd",
+    "parameters": [
+      "0xf001",
+      "0x0",
+      "0x0",
+      "0x0",
+      "0x0"
+    ],
+    "hresult": "0x0",
+    "ptp_response": "0x2001",
+    "ptp_response_params": [
+      "0x2001",
+      "0x0",
+      "0x0",
+      "0x0",
+      "0x0"
+    ]
+  },
+  "backup": {
+    "stage_hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "cache_hex": "b84b9f1105c2471001000000"
+  },
+  "boot_bytes_saved": "C:\\Users\\Luca\\Documents\\Codex\\2026-10-10\\c-users-luca-downloads-z6-2\\work\\feature_scan\\boot_auth_10000088.bin",
+  "boot_bytes_sha256": "e5c5da8e5ac52c5e99d094a4913ab7bb188547ebf7076b7a7c01bcabedbf88d0",
+  "ram_restored": true,
+  "exit": {
+    "opcode": "0x94fd",
+    "parameters": [
+      "0xf002",
+      "0x0",
+      "0x0",
+      "0x0",
+      "0x0"
+    ],
+    "hresult": "0x0",
+    "ptp_response": "0x2001",
+    "ptp_response_params": [
+      "0x2001",
+      "0x0",
+      "0x0",
+      "0x0",
+      "0x0"
+    ]
+  },
+  "service_exit_accepted": true,
+  "post_exit_probe": {
+    "opcode": "0x94ff",
+    "parameters": [
+      "0xf003",
+      "0x1",
+      "0x0",
+      "0x0",
+      "0x0"
+    ],
+    "steps": [
+      {
+        "command": "EXECUTE_READ",
+        "hresult": "0x0"
+      },
+      {
+        "command": "END_DATA_TRANSFER",
+        "hresult": "0x0",
+        "ptp_response": "0xa004",
+        "ptp_response_params": [
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ]
+      }
+    ],
+    "reported_size": 0,
+    "data_hex": "",
+    "read_size": 0
+  },
+  "identity_after": {
+    "firmware_version": "V1.70",
+    "manufacturer": "Nikon Corporation",
+    "model": "Z 6_2"
+  }
+}

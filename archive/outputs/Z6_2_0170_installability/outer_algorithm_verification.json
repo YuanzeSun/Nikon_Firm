@@ -1,0 +1,76 @@
+{
+  "original_module_sha256": "7b85aa96ea25d6b23481627313082476619ccb4dd3634a585de4ed896d350071",
+  "actual_machine_code_executed": true,
+  "stubbed_calls": [
+    "assertion/logger 0x103b2da0; predicate checked"
+  ],
+  "environment_initialization": [
+    "C locale ctype pointer 0xc2b4783c -> original ROM table 0x123a1ac1"
+  ],
+  "synthetic_secret_only": true,
+  "real_package_authentication_confirmed": false,
+  "suffix_mask_hex": "e22b5d787c693ffe",
+  "vectors": [
+    {
+      "message_length": 0,
+      "sha1": "8845251440b95b28df66f6c623b5452ec84a4053",
+      "accepted": true
+    },
+    {
+      "message_length": 3,
+      "sha1": "62ca298dd116b7219a00340a26219f897659ee0b",
+      "accepted": true
+    },
+    {
+      "message_length": 47,
+      "sha1": "364e2206439464ccb65dbda9add707065307f944",
+      "accepted": true
+    },
+    {
+      "message_length": 48,
+      "sha1": "a27bcdd68447b5f592984b881b6515a3f3ddd86a",
+      "accepted": true
+    },
+    {
+      "message_length": 55,
+      "sha1": "6887ea4f30a7ee33d6111696a6c3a4c1de7f83bc",
+      "accepted": true
+    },
+    {
+      "message_length": 56,
+      "sha1": "ca76f3f0f54056761f9a3e07e0264a8db4445265",
+      "accepted": true
+    },
+    {
+      "message_length": 63,
+      "sha1": "e6fc3d477c559f8b48cd2fa5b1826d768fda721e",
+      "accepted": true
+    },
+    {
+      "message_length": 64,
+      "sha1": "4b4fa5903233da39648e8824484cb4e9a700ad7f",
+      "accepted": true
+    },
+    {
+      "message_length": 65,
+      "sha1": "974841df8e03364ca0ed9419bd52efc131c86ad6",
+      "accepted": true
+    },
+    {
+      "message_length": 127,
+      "sha1": "30fc51c182a71f43e3a271dca967d75bdb98892d",
+      "accepted": true
+    },
+    {
+      "message_length": 128,
+      "sha1": "a5412b1ed3797a92de8cb435d4f06e2bf99c8163",
+      "accepted": true
+    },
+    {
+      "message_length": 1024,
+      "sha1": "0359c79553aa5e037158177d30dc8699a82157e0",
+      "accepted": true
+    }
+  ],
+  "incorrect_digest_rejected": true
+}

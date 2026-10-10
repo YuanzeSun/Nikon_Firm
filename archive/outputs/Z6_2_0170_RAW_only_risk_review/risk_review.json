@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-10",
+  "decision": "NOT_CLEARED_AS_SAFE_TO_FLASH",
+  "offline_recheck_passed": true,
+  "camera_io": false,
+  "firmware_package_changed": false,
+  "candidate_sha256": "f3e4fa07de6a8818d4bbf1ef65cb3ee5b7954bee8a353fd9b65ca7b7e4e9b11e",
+  "bytes": 49002888,
+  "manifest_files_verified": {
+    "build_report.json": "e6ab440641c7207ed2fc1a504df7c361954d2875b68291cfc29cc42932232df9",
+    "eg1850_mas_01700_RAW_only.payload.bin": "9d33bd329349285b356643b72434953c2ded525330d5a60441fcc35bb5d69828",
+    "final_verification.json": "1777c6f966380e7c0f00ca41f1e4353d5a87874038e138b157811142f0e13a86",
+    "full_auth_machine_verification.json": "b689ee61b4bcd0a5b4caa6aa304219d2031aeab4148ac0ad3d5243ac876990e2",
+    "independent_package_verification.json": "88fe04ac55acf62885bb22bfb40da8d522bcb647fc13b79ac9b73e1f01f5dbf9",
+    "raw_output_machine_verification.json": "cab979e95448ef7f0e346e997f33aed629b221a8a5d23bc2ee495314f451e6c2",
+    "README.md": "3f3e83541ebbb8587686b11040eeedef8bb5162fbdea811cb9da63a8b38e1f5f",
+    "update_route_verification.json": "b87803a687ee81e60004e24c14f96f6ae6b7428390c7a75d88a55315a08572ea",
+    "Z6_2_0170.bin": "f3e4fa07de6a8818d4bbf1ef65cb3ee5b7954bee8a353fd9b65ca7b7e4e9b11e"
+  },
+  "payload_changed_bytes": 2,
+  "package_changed_bytes": 24,
+  "package_crcs_and_digest_rechecked": true,
+  "modules": [
+    {
+      "name": "ex1850_012000.bi",
+      "crc_valid": true,
+      "payload_unchanged": true
+    },
+    {
+      "name": "_tpj01_v140.bin",
+      "crc_valid": true,
+      "payload_unchanged": true
+    },
+    {
+      "name": "eg1850_mas_01700",
+      "crc_valid": true,
+      "payload_unchanged": false
+    },
+    {
+      "name": "vr1850_010100.bi",
+      "crc_valid": true,
+      "payload_unchanged": true
+    },
+    {
+      "name": "eg1850_sla_01700",
+      "crc_valid": true,
+      "payload_unchanged": true
+    }
+  ],
+  "recording_policy_and_version_unchanged": true,
+  "getter_raw_flag_cases_rerun": 256,
+  "other_selector_comparisons_rerun": 5116,
+  "selector_test_range": "0x000..0x4ff excluding 0x12, four RAM configuration patterns",
+  "full_authentication_report_for_exact_file_revalidated": true,
+  "raw_output_existing_total_cases": 512,
+  "raw_output_existing_candidate_cases": 256,
+  "existing_parser_acceptance_revalidated": true,
+  "disassembly": {
+    "original": [
+      "103c3114 3749 ldr r1, [pc, #0xdc]",
+      "103c3116 1228 cmp r0, #0x12",
+      "103c3118 04d0 beq #0x103c3124",
+      "103c311a 1428 cmp r0, #0x14",
+      "103c311c 09d0 beq #0x103c3132",
+      "103c311e 60b1 cbz r0, #0x103c313a",
+      "103c3120 085c ldrb r0, [r1, r0]",
+      "103c3122 7047 bx lr",
+      "103c3124 0879 ldrb r0, [r1, #4]",
+      "103c3126 b228 cmp r0, #0xb2",
+      "103c3128 01d1 bne #0x103c312e",
+      "103c312a 0120 movs r0, #1",
+      "103c312c 7047 bx lr",
+      "103c312e 0020 movs r0, #0",
+      "103c3130 7047 bx lr",
+      "103c3132 4879 ldrb r0, [r1, #5]",
+      "103c3134 6a28 cmp r0, #0x6a",
+      "103c3136 fad1 bne #0x103c312e",
+      "103c3138 f7e7 b #0x103c312a",
+      "103c313a 0868 ldr r0, [r1]",
+      "103c313c 7047 bx lr"
+    ],
+    "candidate": [
+      "103c3114 3749 ldr r1, [pc, #0xdc]",
+      "103c3116 1228 cmp r0, #0x12",
+      "103c3118 04d0 beq #0x103c3124",
+      "103c311a 1428 cmp r0, #0x14",
+      "103c311c 09d0 beq #0x103c3132",
+      "103c311e 60b1 cbz r0, #0x103c313a",
+      "103c3120 085c ldrb r0, [r1, r0]",
+      "103c3122 7047 bx lr",
+      "103c3124 0879 ldrb r0, [r1, #4]",
+      "103c3126 b228 cmp r0, #0xb2",
+      "103c3128 00bf nop ",
+      "103c312a 0120 movs r0, #1",
+      "103c312c 7047 bx lr",
+      "103c312e 0020 movs r0, #0",
+      "103c3130 7047 bx lr",
+      "103c3132 4879 ldrb r0, [r1, #5]",
+      "103c3134 6a28 cmp r0, #0x6a",
+      "103c3136 fad1 bne #0x103c312e",
+      "103c3138 f7e7 b #0x103c312a",
+      "103c313a 0868 ldr r0, [r1]",
+      "103c313c 7047 bx lr"
+    ]
+  },
+  "user_reported_observations": {
+    "usb_connected": "Done and delete-update-files entries only",
+    "usb_disconnected": "Update became accessible; camera then refused due to battery level",
+    "interpretation": "Early update UI is accessible at C1.70; final installation acceptance remains unverified"
+  },
+  "unverified": [
+    "Actual erase/program/read-back/reboot on hardware",
+    "Independent boot checks and behavior after patched main firmware loads",
+    "Physical HDMI RAW output and recorder interoperability",
+    "RAW-related startup/menu/settings paths outside the bounded emulation",
+    "Recovery when normal firmware menu and PTP are unavailable",
+    "Successful rollback or later official-firmware installation",
+    "Hash of the copy currently on the camera memory card; card is not mounted on this PC"
+  ],
+  "risk_probability": "Not quantifiable from current evidence",
+  "recommendation": "Do not flash a primary camera on the assumption that offline checks prove installation safety."
+}

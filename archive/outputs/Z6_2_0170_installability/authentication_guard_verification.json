@@ -1,0 +1,20 @@
+[
+  {
+    "case": "absent_required_bytes",
+    "rejected": true,
+    "message": "ROM dump does not contain 0x10000088 through 0x1000008f",
+    "output_created": false
+  },
+  {
+    "case": "incorrect_eight_bytes",
+    "rejected": true,
+    "message": "ROM data fails to reproduce the official SHA-1. No package was written.",
+    "output_created": false
+  },
+  {
+    "case": "incorrect_boot_dump",
+    "rejected": true,
+    "message": "ROM data fails to reproduce the official SHA-1. No package was written.",
+    "output_created": false
+  }
+]

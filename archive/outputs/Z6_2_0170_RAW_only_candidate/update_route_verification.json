@@ -1,0 +1,27 @@
+{
+  "parser_entry": "0x103af744",
+  "parser_cases": [
+    {
+      "input": "official_full_package",
+      "sha256": "5a9640b4c07abe1ecbf5a52655cbec6b893bba045bb2a1a1d21055b9f8f9d06d",
+      "parser_result": 1
+    },
+    {
+      "input": "authenticated_raw_only_candidate",
+      "sha256": "f3e4fa07de6a8818d4bbf1ef65cb3ee5b7954bee8a353fd9b65ca7b7e4e9b11e",
+      "parser_result": 1
+    },
+    {
+      "input": "raw_main_payload_plus_crc",
+      "sha256": "bb83613121f843d65101da936d942acdc513d86dbd3abc26259d0d870d03f5d4",
+      "parser_result": 0
+    }
+  ],
+  "io_stubs": "Read/seek from supplied in-memory files; cache-maintenance calls return immediately.",
+  "read_range_entry": "0x104b5314",
+  "requested_start": "0x10000088",
+  "requested_end_inclusive": "0x1000008f",
+  "read_range_result": 0,
+  "general_read_command_0xf032_rejects_needed_rom_range": true,
+  "full_installation_validated": false
+}

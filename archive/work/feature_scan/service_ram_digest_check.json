@@ -1,0 +1,21 @@
+{
+  "source_sha256": "5a9640b4c07abe1ecbf5a52655cbec6b893bba045bb2a1a1d21055b9f8f9d06d",
+  "official_outer_digest": "89019167cb702344a1afa1d44e408f26b259d3e4",
+  "live_ram_address": "0xc2b2b614",
+  "live_ram_length": 8,
+  "live_ram_hex": "0000000000000000",
+  "cases": [
+    {
+      "hypothesis": "RAM already transformed suffix",
+      "computed_sha1": "09a5b417f06a6e677d1bda73f74c6e2cf5faa09d",
+      "matches_official": false
+    },
+    {
+      "hypothesis": "RAM raw source before transform",
+      "computed_sha1": "5a4659a7945c11776dcad9675473bd24a9ea26fa",
+      "matches_official": false
+    }
+  ],
+  "verified_authentication_bytes_obtained": false,
+  "firmware_output_written": false
+}

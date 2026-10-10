@@ -1,0 +1,5138 @@
+{
+  "scope": "Execute actual RAW format selection and sink-format matching on built bytes.\n\nCamera properties and HDMI sink capability data are supplied by the harness;\nthis is not an electrical HDMI or external-recorder interoperability test.\n",
+  "module_sha256": "9d33bd329349285b356643b72434953c2ded525330d5a60441fcc35bb5d69828",
+  "actual_routines": [
+    "0x1063a1f6",
+    "0x10657c24",
+    "0x103c3114"
+  ],
+  "cases": {
+    "original": [
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 16
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 16
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 31
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 31
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 66
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 66
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 67
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 67
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 68
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 68
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 16
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 16
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 16
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 16
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 16
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 31
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 31
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 31
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 31
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 31
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 66
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 66
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 66
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 66
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 66
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 67
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 67
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 67
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 67
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 67
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 68
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 68
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 68
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 68
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 68
+      }
+    ],
+    "candidate": [
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 16
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 16
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 16
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 16
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 16
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 31
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 31
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 31
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 31
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 31
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 66
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 66
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 66
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 66
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 66
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 67
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 67
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 67
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 67
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 67
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 68
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 68
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 68
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 68
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 0,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 68
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 16
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 16
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 16
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 16
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 2,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 16
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 31
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 31
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 31
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 31
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 3,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 31
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 34
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 33
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 1,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 32
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 66
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 66
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 66
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 66
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 4,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 66
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 67
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 67
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 67
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 67
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 5,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 67
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 68
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 0,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 1,
+        "sink_advertises_raw": true,
+        "raw_route_selected": false,
+        "selected_format": 68
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 2,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 68
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 4,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 68
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": false,
+        "raw_route_selected": false,
+        "selected_format": 3
+      },
+      {
+        "original_raw_flag": 178,
+        "resolution_setting": 2,
+        "rate_setting": 6,
+        "raw_enabled_setting": 1,
+        "output_state": 5,
+        "sink_advertises_raw": true,
+        "raw_route_selected": true,
+        "selected_format": 68
+      }
+    ]
+  },
+  "case_count": 512,
+  "all_assertions_passed": true,
+  "physical_hdmi_tested": false
+}

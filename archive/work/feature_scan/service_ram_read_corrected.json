@@ -1,0 +1,163 @@
+{
+  "timestamp": "2026-10-10T15:17:53.474387+08:00",
+  "entry_and_exit_opcode": "0x94fd",
+  "read_opcode": "0x94ff",
+  "transport_handle": "GENERIC_READ | GENERIC_WRITE",
+  "camera_persistent_settings_written": false,
+  "camera_files_written": false,
+  "firmware_written": false,
+  "flashable_package_created": false,
+  "identity_before": {
+    "firmware_version": "V1.70",
+    "manufacturer": "Nikon Corporation",
+    "model": "Z 6_2"
+  },
+  "phase": "closed",
+  "enter": {
+    "opcode": "0x94fd",
+    "parameters": [
+      "0xf001",
+      "0x0",
+      "0x0",
+      "0x0",
+      "0x0"
+    ],
+    "hresult": "0x0",
+    "ptp_response": "0x2001",
+    "ptp_response_params": [
+      "0x2001",
+      "0x0",
+      "0x0",
+      "0x0",
+      "0x0"
+    ]
+  },
+  "service_entry_accepted": true,
+  "model_in_service": {
+    "opcode": "0x94ff",
+    "parameters": [
+      "0xf003",
+      "0x1",
+      "0x0",
+      "0x0",
+      "0x0"
+    ],
+    "steps": [
+      {
+        "command": "EXECUTE_READ",
+        "hresult": "0x0"
+      },
+      {
+        "command": "READ_DATA",
+        "hresult": "0x0"
+      },
+      {
+        "command": "END_DATA_TRANSFER",
+        "hresult": "0x0",
+        "ptp_response": "0x2001",
+        "ptp_response_params": [
+          "0x2001",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ]
+      }
+    ],
+    "reported_size": 128,
+    "data_hex": "5a20365f32000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "read_size": 128
+  },
+  "ram_read": {
+    "opcode": "0x94ff",
+    "parameters": [
+      "0xf032",
+      "0xc2b2b614",
+      "0x8",
+      "0x0",
+      "0x0"
+    ],
+    "steps": [
+      {
+        "command": "EXECUTE_READ",
+        "hresult": "0x0"
+      },
+      {
+        "command": "READ_DATA",
+        "hresult": "0x0"
+      },
+      {
+        "command": "END_DATA_TRANSFER",
+        "hresult": "0x0",
+        "ptp_response": "0x2001",
+        "ptp_response_params": [
+          "0x2001",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ]
+      }
+    ],
+    "reported_size": 8,
+    "data_hex": "0000000000000000",
+    "read_size": 8
+  },
+  "exit": {
+    "opcode": "0x94fd",
+    "parameters": [
+      "0xf002",
+      "0x0",
+      "0x0",
+      "0x0",
+      "0x0"
+    ],
+    "hresult": "0x0",
+    "ptp_response": "0x2001",
+    "ptp_response_params": [
+      "0x2001",
+      "0x0",
+      "0x0",
+      "0x0",
+      "0x0"
+    ]
+  },
+  "service_exit_accepted": true,
+  "model_after_exit": {
+    "opcode": "0x94ff",
+    "parameters": [
+      "0xf003",
+      "0x1",
+      "0x0",
+      "0x0",
+      "0x0"
+    ],
+    "steps": [
+      {
+        "command": "EXECUTE_READ",
+        "hresult": "0x0"
+      },
+      {
+        "command": "END_DATA_TRANSFER",
+        "hresult": "0x0",
+        "ptp_response": "0xa004",
+        "ptp_response_params": [
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0",
+          "0x0"
+        ]
+      }
+    ],
+    "reported_size": 0,
+    "data_hex": "",
+    "read_size": 0
+  },
+  "identity_after": {
+    "firmware_version": "V1.70",
+    "manufacturer": "Nikon Corporation",
+    "model": "Z 6_2"
+  },
+  "authentication_bytes_verified": false
+}

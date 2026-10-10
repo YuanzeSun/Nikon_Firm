@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-10-10T14:19:20.104338+08:00",
+  "access": "GENERIC_READ; FILE_READ_ACCESS IOCTL",
+  "service_mode_entered": false,
+  "camera_settings_written": false,
+  "camera_files_written": false,
+  "firmware_written": false,
+  "reads": [
+    {
+      "opcode": "0xf003",
+      "parameters": [
+        1
+      ],
+      "steps": [
+        {
+          "command": "EXECUTE_READ",
+          "hresult": "0x0"
+        },
+        {
+          "command": "END_DATA_TRANSFER",
+          "hresult": "0x0",
+          "ptp_response": "0x2005"
+        }
+      ],
+      "reported_size": 0,
+      "error": "Unexpected diagnostic data length: 0"
+    }
+  ],
+  "identity_before": {
+    "firmware_version": "V1.70",
+    "manufacturer": "Nikon Corporation",
+    "model": "Z 6_2"
+  },
+  "identity_after": {
+    "firmware_version": "V1.70",
+    "manufacturer": "Nikon Corporation",
+    "model": "Z 6_2"
+  }
+}

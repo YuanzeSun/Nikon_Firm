@@ -1,0 +1,73 @@
+{
+  "candidate_sha256": "f3e4fa07de6a8818d4bbf1ef65cb3ee5b7954bee8a353fd9b65ca7b7e4e9b11e",
+  "independent_decoder_matches_original_export": true,
+  "payload_changed_bytes": 2,
+  "package_changed_bytes": 24,
+  "package_changed_offsets": [
+    "0x0",
+    "0x1",
+    "0x2",
+    "0x3",
+    "0x4",
+    "0x5",
+    "0x6",
+    "0x7",
+    "0x8",
+    "0x9",
+    "0xa",
+    "0xb",
+    "0xc",
+    "0xd",
+    "0xe",
+    "0xf",
+    "0x10",
+    "0x11",
+    "0x12",
+    "0x13",
+    "0x43121c",
+    "0x43121d",
+    "0x25828ac",
+    "0x25828ad"
+  ],
+  "only_raw_instruction_and_checksums_changed": true,
+  "ordinary_recording_limit_ms": 1799000,
+  "all_126_duration_entries_unchanged": true,
+  "recording_start_guard_unchanged": true,
+  "all_other_main_payload_bytes_unchanged": true,
+  "other_four_modules_unchanged": true,
+  "all_module_crcs_valid": true,
+  "container_crc_valid": true,
+  "modules": [
+    {
+      "name": "ex1850_012000.bi",
+      "crc_valid": true,
+      "payload_sha256": "4314c17d9a6676a4254aa4d74d4aa35411e3a793ea7056c06f9c83f160da3cb1"
+    },
+    {
+      "name": "_tpj01_v140.bin",
+      "crc_valid": true,
+      "payload_sha256": "2458d520e543755a8191b16070470ba52dd33808169cdef66d90fc9c65d0b708"
+    },
+    {
+      "name": "eg1850_mas_01700",
+      "crc_valid": true,
+      "payload_sha256": "9d33bd329349285b356643b72434953c2ded525330d5a60441fcc35bb5d69828"
+    },
+    {
+      "name": "vr1850_010100.bi",
+      "crc_valid": true,
+      "payload_sha256": "a9dd2236c6e089535d535662394b2a21c37de5028bd9964eeb2b2de79dd2a09d"
+    },
+    {
+      "name": "eg1850_sla_01700",
+      "crc_valid": true,
+      "payload_sha256": "ed7be55b90024270c9e8227fa2effd66a0eb8f32e96de23e3d1a7a196cdaf676"
+    }
+  ],
+  "original_outer_digest_reproduced": true,
+  "candidate_outer_digest_verified": true,
+  "model_and_version_metadata_unchanged": true,
+  "hardware_installation_tested": false,
+  "physical_hdmi_tested": false,
+  "all_assertions_passed": true
+}

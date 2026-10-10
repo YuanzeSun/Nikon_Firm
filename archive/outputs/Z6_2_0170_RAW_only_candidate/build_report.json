@@ -1,0 +1,106 @@
+{
+  "status": "AUTHENTICATED_OFFLINE_CANDIDATE_HARDWARE_UNTESTED",
+  "built_from": "C:\\Users\\Luca\\Downloads\\Z6_2_0170.bin",
+  "original_sha256": "5a9640b4c07abe1ecbf5a52655cbec6b893bba045bb2a1a1d21055b9f8f9d06d",
+  "package_sha256": "f3e4fa07de6a8818d4bbf1ef65cb3ee5b7954bee8a353fd9b65ca7b7e4e9b11e",
+  "module_sha256": "9d33bd329349285b356643b72434953c2ded525330d5a60441fcc35bb5d69828",
+  "bytes": 49002888,
+  "features": [
+    "HDMI RAW capability only"
+  ],
+  "patches": [
+    {
+      "address": "0x103c3128",
+      "module_offset": "0x3a3128",
+      "before": "01d1",
+      "after": "00bf",
+      "purpose": "HDMI RAW capability selector 0x12"
+    }
+  ],
+  "payload_changed_bytes": 2,
+  "version_unchanged": "1.70",
+  "recording_duration_policy_unchanged": true,
+  "ordinary_recording_limit_ms": 1799000,
+  "duration_table_entries_unchanged": 126,
+  "recording_engine_start_guard": 1798001,
+  "special_mode_limit_ms": 180000,
+  "official_digest_reproduced": true,
+  "all_crcs_valid": true,
+  "other_four_modules_unchanged": true,
+  "hardware_installation_tested": false,
+  "hardware_hdmi_tested": false,
+  "original_modules": [
+    {
+      "name": "ex1850_012000.bi",
+      "offset": 208,
+      "length": 524290,
+      "payload_sha256": "4314c17d9a6676a4254aa4d74d4aa35411e3a793ea7056c06f9c83f160da3cb1",
+      "crc16": "d8d1"
+    },
+    {
+      "name": "_tpj01_v140.bin",
+      "offset": 524498,
+      "length": 57346,
+      "payload_sha256": "2458d520e543755a8191b16070470ba52dd33808169cdef66d90fc9c65d0b708",
+      "crc16": "a0f2"
+    },
+    {
+      "name": "eg1850_mas_01700",
+      "offset": 581844,
+      "length": 38750138,
+      "payload_sha256": "7b85aa96ea25d6b23481627313082476619ccb4dd3634a585de4ed896d350071",
+      "crc16": "8e61"
+    },
+    {
+      "name": "vr1850_010100.bi",
+      "offset": 39331982,
+      "length": 838664,
+      "payload_sha256": "a9dd2236c6e089535d535662394b2a21c37de5028bd9964eeb2b2de79dd2a09d",
+      "crc16": "d92e"
+    },
+    {
+      "name": "eg1850_sla_01700",
+      "offset": 40170646,
+      "length": 8832194,
+      "payload_sha256": "ed7be55b90024270c9e8227fa2effd66a0eb8f32e96de23e3d1a7a196cdaf676",
+      "crc16": "7d28"
+    }
+  ],
+  "candidate_modules": [
+    {
+      "name": "ex1850_012000.bi",
+      "offset": 208,
+      "length": 524290,
+      "payload_sha256": "4314c17d9a6676a4254aa4d74d4aa35411e3a793ea7056c06f9c83f160da3cb1",
+      "crc16": "d8d1"
+    },
+    {
+      "name": "_tpj01_v140.bin",
+      "offset": 524498,
+      "length": 57346,
+      "payload_sha256": "2458d520e543755a8191b16070470ba52dd33808169cdef66d90fc9c65d0b708",
+      "crc16": "a0f2"
+    },
+    {
+      "name": "eg1850_mas_01700",
+      "offset": 581844,
+      "length": 38750138,
+      "payload_sha256": "9d33bd329349285b356643b72434953c2ded525330d5a60441fcc35bb5d69828",
+      "crc16": "d5c9"
+    },
+    {
+      "name": "vr1850_010100.bi",
+      "offset": 39331982,
+      "length": 838664,
+      "payload_sha256": "a9dd2236c6e089535d535662394b2a21c37de5028bd9964eeb2b2de79dd2a09d",
+      "crc16": "d92e"
+    },
+    {
+      "name": "eg1850_sla_01700",
+      "offset": 40170646,
+      "length": 8832194,
+      "payload_sha256": "ed7be55b90024270c9e8227fa2effd66a0eb8f32e96de23e3d1a7a196cdaf676",
+      "crc16": "7d28"
+    }
+  ]
+}

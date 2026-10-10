@@ -1,0 +1,20 @@
+{
+  "status": "OFFLINE_CHECKS_PASSED_HARDWARE_UNTESTED",
+  "package_sha256": "f3e4fa07de6a8818d4bbf1ef65cb3ee5b7954bee8a353fd9b65ca7b7e4e9b11e",
+  "module_sha256": "9d33bd329349285b356643b72434953c2ded525330d5a60441fcc35bb5d69828",
+  "version": "C1.70",
+  "feature": "HDMI RAW capability only",
+  "normal_recording_limit_ms": 1799000,
+  "recording_policy_unchanged": true,
+  "payload_changed_bytes": 2,
+  "package_changed_bytes": 24,
+  "independent_decode_crc_and_digest_passed": true,
+  "complete_original_authentication_machine_code_passed": true,
+  "raw_path_machine_code_cases_passed": 512,
+  "package_parser_accepted": true,
+  "official_source_and_previous_dual_feature_candidate_unchanged": true,
+  "camera_access_during_this_build": false,
+  "hardware_installation_tested": false,
+  "same_version_update_eligibility_confirmed": false,
+  "physical_hdmi_tested": false
+}
