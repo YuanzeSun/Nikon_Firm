@@ -8,6 +8,7 @@
 | `firmware/Z6II_C1.70_RAW_only/Z6_2_0170.bin` | `f3e4fa07de6a8818d4bbf1ef65cb3ee5b7954bee8a353fd9b65ca7b7e4e9b11e` |
 | `firmware/Z6II_C1.70_RAW_120min_candidate/Z6_2_0170.bin` | `833a387669b9bbd47b6a9bfd2fd50015c79c1ca172c6b4e5bd141ccb89d99a3a` |
 | `firmware/Z6II_C1.70_RAW_120min_v3/Z6_2_0170.bin` | `ae38ec66372bbaf16609241a8408fe51c00160b757efbc6d7d0d820c0f288f85` |
+| `firmware/Z6II_C1.70_RAW_120min_v4/Z6_2_0170.bin` | `6ad4cbf7866c2a79041f6b3411b2063bc88a13b2d0a3010be38f3b8da91d39a4` |
 
 原包大小：49,002,888 字节。版本：C 1.70。
 
@@ -33,6 +34,8 @@ RAW 能力选择器：运行地址 `0x103c3128`，模块偏移 `0x3a3128`，`01 
 
 旧 `120min_candidate` 仍保留 4K 50/60p 的专用计数（3596/3749）和视频样本表容量（216000 项）。v3 已处理这些位置，并扩展音频、时间戳和内存分配，详见 [`120min_v3.md`](120min_v3.md)。
 
+后续使用 v4：仅扩展普通 24–60p 到 120 分钟，取消 v3 的所有启动池和堆配置修改，在原缓冲区内使用 432000 帧布局。100/120p 保留原时长，详见 [`120min_v4.md`](120min_v4.md)。
+
 ## 升级路线
 
 1. 从 `firmware/` 选择目标包，将文件复制到存储卡根目录，文件名保持 `Z6_2_0170.bin`。
@@ -44,4 +47,5 @@ RAW 能力选择器：运行地址 `0x103c3128`，模块偏移 `0x3a3128`，`01 
 - `tools/raw_only.py`：解码、校验、提取模块和重建 RAW-only 包。
 - `tools/build_120min_candidate.py`：从同一组输入重建 120min 候选包。
 - `tools/build_120min_v3.py`：校验或重建 v3，读取 `tools/patches/z6ii_170_raw_120min_v3.json` 中的完整补丁。
+- `tools/build_120min_v4.py`：校验或重建 v4，同时检查启动内存配置及已定位的更新代码区域未变。
 - `tools/patches/recording_layout_v3.asm`：新增 Thumb 代码的汇编片段，布局数据和原函数重定位记录在同目录 JSON 中。
